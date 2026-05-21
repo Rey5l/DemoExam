@@ -1,0 +1,71 @@
+﻿<Window x:Class="Marketplace.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Marketplace"
+        mc:Ignorable="d" Style="{StaticResource Windows}"
+        Title="Авторизация" Height="450" Width="800">
+    <Grid>
+
+        <Border 
+            VerticalAlignment="Center" 
+            HorizontalAlignment="Center" 
+            Margin="20"
+            Padding="20"
+            CornerRadius="10"
+            BorderBrush="Gray"
+            BorderThickness="1"
+            >
+            <StackPanel Orientation="Vertical" Width="350">
+                <TextBlock Text="Логин" Margin="0 0 0 10"/>
+                <TextBox 
+                    Name="LoginTextBox" 
+                    BorderBrush="Green"
+                    Cursor="IBeam"
+                    Height="30">
+                    <TextBox.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </TextBox.Resources>
+                </TextBox>
+
+                <TextBlock Text="Пароль" Margin="0 20 0 10"/>
+                
+
+                <Border CornerRadius="10"
+                        BorderBrush="Green"
+                        BorderThickness="1"
+                        Height="30">
+                    <PasswordBox Name="PasswordTextBox" 
+                                 Height="30" 
+                                 VerticalAlignment="Center"
+                                 Padding="8, 0"
+                                 BorderThickness="0"
+                                 Background="Transparent"
+                                 >
+
+                    </PasswordBox>
+                </Border>
+
+
+                <Button 
+                    Name="LoginButton" 
+                    Content="Войти" 
+                    Margin="0 20 0 0"
+                    Height="40"
+                    Click="LoginButton_Click" />
+                <TextBlock
+                    Text="Войти как гость"
+                    HorizontalAlignment="Center"
+                    Margin="0 10 0 0"
+                    Foreground="Blue"
+                    MouseDown="AsGuest_MouseDown"
+                    />
+
+            </StackPanel>
+        </Border>
+        
+    </Grid>
+</Window>

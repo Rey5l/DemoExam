@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="82c5d2752c5342b2adb85e8efe5c360f" Name="Diagram1">
+        <EntityTypeShape EntityType="MarketplaceDBModel.Category" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketplaceDBModel.Orders" Width="1.5" PointX="3" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketplaceDBModel.OrderStatus" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketplaceDBModel.PickUpPoint" Width="1.5" PointX="0.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketplaceDBModel.Producer" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketplaceDBModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketplaceDBModel.ProductInOrder" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketplaceDBModel.Provider" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketplaceDBModel.Roles" Width="1.5" PointX="1.5" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketplaceDBModel.Unit" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarketplaceDBModel.Users" Width="1.5" PointX="0.75" PointY="18.375" IsExpanded="true" />
+        <AssociationConnector Association="MarketplaceDBModel.FK__Product__Categor__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketplaceDBModel.FK__Orders__StatusId__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketplaceDBModel.FK__Orders__StatusId__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketplaceDBModel.FK__Orders__UserId__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketplaceDBModel.FK__ProductIn__Amoun__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketplaceDBModel.FK__Product__Produce__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketplaceDBModel.FK__Product__ImagePa__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketplaceDBModel.FK__Product__Provide__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketplaceDBModel.FK__ProductIn__Produ__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="MarketplaceDBModel.FK__Users__RoleId__3F466844" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
