@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Marketplace\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|c:\\users\\user\\source\\repos\\marketplace\\marketplace\\addeditproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\addeditproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|c:\\users\\user\\source\\repos\\marketplace\\marketplace\\addeditproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\addeditproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|C:\\Users\\user\\source\\repos\\Marketplace\\marketplace\\productwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\productwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|c:\\users\\user\\source\\repos\\marketplace\\marketplace\\productwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|C:\\Users\\user\\source\\repos\\Marketplace\\marketplace\\productwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\productwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|c:\\users\\user\\source\\repos\\marketplace\\marketplace\\addeditproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\addeditproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|C:\\Users\\user\\source\\repos\\Marketplace\\marketplace\\addeditproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\addeditproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|C:\\Users\\user\\source\\repos\\Marketplace\\marketplace\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|C:\\Users\\user\\source\\repos\\Marketplace\\marketplace\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|C:\\Users\\user\\source\\repos\\Marketplace\\marketplace\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|C:\\Users\\user\\source\\repos\\Marketplace\\marketplace\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8485BF8A-9367-43DC-AACB-5E9AED691ED6}|Marketplace\\Marketplace.csproj|C:\\Users\\user\\source\\repos\\Marketplace\\marketplace\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AddEditProductWindow.xaml",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Marketplace\\Marketplace\\AddEditProductWindow.xaml",
               "RelativeDocumentMoniker": "Marketplace\\AddEditProductWindow.xaml",
@@ -94,32 +94,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AddEditProductWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Marketplace\\Marketplace\\AddEditProductWindow.xaml.cs",
               "RelativeDocumentMoniker": "Marketplace\\AddEditProductWindow.xaml.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\Marketplace\\Marketplace\\AddEditProductWindow.xaml.cs",
               "RelativeToolTip": "Marketplace\\AddEditProductWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAM0AAAAAAAAAAADwvxUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-21T16:52:34.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Marketplace\\Marketplace\\ViewModels\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "Marketplace\\ViewModels\\ProductViewModel.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\Marketplace\\Marketplace\\ViewModels\\ProductViewModel.cs",
               "RelativeToolTip": "Marketplace\\ViewModels\\ProductViewModel.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAqwFIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAiwFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T21:48:41.17Z"
+              "WhenOpened": "2026-05-20T21:48:41.17Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ProductWindow.xaml",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Marketplace\\Marketplace\\ProductWindow.xaml",
               "RelativeDocumentMoniker": "Marketplace\\ProductWindow.xaml",
@@ -131,13 +132,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ProductWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Marketplace\\Marketplace\\ProductWindow.xaml.cs",
               "RelativeDocumentMoniker": "Marketplace\\ProductWindow.xaml.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\Marketplace\\Marketplace\\ProductWindow.xaml.cs",
               "RelativeToolTip": "Marketplace\\ProductWindow.xaml.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAAwJ8AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwDwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-19T22:22:03.75Z",
               "EditorCaption": ""
@@ -168,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Marketplace\\Marketplace\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Marketplace\\MainWindow.xaml",
@@ -179,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Marketplace\\Marketplace\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Marketplace\\MainWindow.xaml.cs",

@@ -1,16 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 using Marketplace.Helpers;
 using Marketplace.Model;
@@ -28,6 +22,8 @@ namespace Marketplace
         private MessageHelper _mh = new MessageHelper();
         private List<ProductViewModel> _allProducts = new List<ProductViewModel>();
         private List<ProductViewModel> _filteredProducts = new List<ProductViewModel>();
+        private int? _selectedProductId;
+        private Border _selectedBorder;
 
         private string[] _sortingTypes = new string[]
         {
@@ -58,7 +54,9 @@ namespace Marketplace
 
             } else if (user.RoleId == 1)
             {
+                EditButton.Visibility = Visibility.Visible;
                 CreateButton.Visibility = Visibility.Visible;
+                DeleteButton.Visibility = Visibility.Visible;
             }
         }
 
@@ -92,6 +90,7 @@ namespace Marketplace
         {
             var products = _db.Product.ToList();
             _allProducts = products.Select(p => new ProductViewModel(p)).ToList();
+            ClearSelection();
             ProductList.ItemsSource = _allProducts;
         }
 
@@ -129,6 +128,7 @@ namespace Marketplace
             }
 
             _filteredProducts = result;
+            ClearSelection();
             ProductList.ItemsSource = _filteredProducts;
         }
 
@@ -163,12 +163,83 @@ namespace Marketplace
         private void Border_MouseDown(object sender, MouseButtonEventArgs e)
         {
             var user = CurrentSession.CurrentUser;
-            if (user == null) return;
-            else if (user.RoleId != 1) return;
+            if (user == null || user.RoleId != 1) return;
 
-                int id = (int)(sender as Border).Tag;
+            var border = sender as Border;
+            SelectProduct(border);
+        }
 
-            new AddEditProductWindow(id).Show();
+        private void SelectProduct(Border border)
+        {
+            if (_selectedBorder != null)
+            {
+                _selectedBorder.BorderBrush = Brushes.Transparent;
+                _selectedBorder.BorderThickness = new Thickness(0);
+            }
+
+            _selectedBorder = border;
+            _selectedProductId = (int)border.Tag;
+            border.BorderBrush = Brushes.DarkBlue;
+            border.BorderThickness = new Thickness(2);
+        }
+
+        private void ClearSelection()
+        {
+            if (_selectedBorder != null)
+            {
+                _selectedBorder.BorderBrush = Brushes.Transparent;
+                _selectedBorder.BorderThickness = new Thickness(0);
+            }
+
+            _selectedBorder = null;
+            _selectedProductId = null;
+        }
+
+
+        private void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (!_selectedProductId.HasValue)
+            {
+                _mh.ShowWarning("Выберите продукт, нажав на его карточку");
+                return;
+            }
+
+            int id = _selectedProductId.Value;
+            var product = _db.Product.Find(id);
+            if (product == null) return;
+
+            var confirm = MessageBox.Show($"Удалить продукт {product.Name}?", "Подтверждение", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+            if (confirm != MessageBoxResult.Yes) return;
+
+            try
+            {
+                var orderItems = _db.ProductInOrder.Where(p => p.ProductId == product.Id).ToList();
+                _db.ProductInOrder.RemoveRange(orderItems);
+                _db.Product.Remove(product);
+                _db.SaveChanges();
+
+                ClearSelection();
+                _mh.ShowInfo("Продукт успешно удален!");
+                LoadProducts();
+                ApplyFilters();
+            } catch (Exception ex)
+            {
+                _mh.ShowError(ex.Message);
+            }
+
+
+        }
+
+        private void EditButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (!_selectedProductId.HasValue)
+            {
+                _mh.ShowInfo("Выберите продукт, нажав на его карточку");
+                return;
+            }
+
+            new AddEditProductWindow(_selectedProductId.Value).Show();
             Close();
         }
     }
